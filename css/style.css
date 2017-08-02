@@ -1,0 +1,97 @@
+body {
+	text-align: center;
+	margin: 0; /* removes the left and right blank spots */
+
+}
+
+h1 {
+	/*color: #0D2C40;*/
+	color: #ffffff;
+	letter-spacing: 1px; /* spaces out words */
+	font-weight: 400;
+	font-size: 45px;
+	background-color: #f15b31;
+	padding: 30px 20px; /*short hand for padding top/bottom & left/right*/
+	margin: 0; /* removes the blank band from the top of the page */
+}
+
+h2 {
+	text-decoration: none;
+	color: #0D2C40;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 20px;
+
+}
+
+h1, h2 {
+	font-family: "Raleway", sans-serif; /* changes the font with backup as sans-serif */
+	text-transform: uppercase;
+}
+
+nav {
+	background-color: #00A6b3;
+	padding: 20px; /*adds padding to the top (links to the top of the color) */
+}
+a {
+	font-family: "Raleway", sans-serif;
+	text-decoration: none;
+	/*color: #f15B31;*/
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 0px 20px; /* 0 padding top/bottom only padding on left/right */
+	border-bottom: 2px solid transparent; /*this creates the border bottom that turns white on hover*/
+}
+a:hover { /* sets a for links when hover*/
+	border-color: white;
+}
+
+main {
+	max-width: 850px;
+	margin: 35px auto;
+}
+
+img {
+	margin: 40px 8px;
+}
+
+p {
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0px 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em; /*spaces out the letter nicely*/
+	font-weight: 500;
+}
+.copyright { /*moves the copyright to the left*/
+	font-family: "Raleway", sans-serif;
+	float: left;
+}
+
+.message {
+	font-family: "Raleway", sans-serif;
+	float: right;
+}
+
+.clearfix:after { /* this fixes the footer that was broken b/c of the float*/
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.name {
+	color: #f15B31;
+	font-weight: 700;
+}
